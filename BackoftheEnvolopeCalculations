@@ -1,0 +1,31 @@
+5 Core Axes Calculations:
+Token Economics[Cost Modelling]
+Question it Answers:
+How much text processing am I paying for?
+Measures: Input Tokens - Output tokens - Token Cost - Monthly Spend
+Total Cost = (Tokens per call) *(Calls per task)* (Tasks per day) * (Model Price)
+→ A Linear Token calculation to validate that My Agentic System is chaotic/Expensive or Not.
+Task decomposition Complexity [Workflow Complexity Designing]
+Question it answers:
+How much work is my System doing?
+Measures: Number of Agents - Subtasks - orchestration depth - branching workflows
+Total Work = Subtasks * Calls per subtask
+→ As more subtasks usually increases: Cost - Latency - Failure Probability - Debugging Complexity. To reduce Calls per run.
+Reliability Amplification [Retry/Failure Validation Designing]
+Questions it Answers:
+What happens when things fail?
+Measures: Retry count - Tool Failures - Timeout Frequency - Fallback behavior.
+Effective Cost = Base * Retry Factor
+→ Avoid More Failures, as they eat your budget.
+Latency Budgeting [ Distribution Time Designing]
+Question it answers:
+How long will the system take to respond?
+Measures: Model Inference Time - Tool Execution Time - Network Delay - Sequential Chains.
+Total Latency = Mean[ Stage Latency ] If Parallelized: =Max(Parallel branches)
+→To avoid My Agent System Fail of Waiting.
+5.Context Pressure Analysis [ Memory / Context Model ]
+Question It Answers:
+How much Information can My System Carry?
+Measures: Context Window Usage - Retrieval Size - Prompt growth - Memory Accumulation
+Context Usage = Prompt + Retrieved Data + History + Tool Output.
+→ To Determine Chunking strategy, Retrieval Design, Summarizartion, Memory Architecture for Agentic C
